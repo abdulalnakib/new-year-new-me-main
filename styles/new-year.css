@@ -196,7 +196,7 @@ main {
 
 footer {
     display: flex;
-    width: 1600px;
+    width: 1490px;
     height: 577px;
     background: #151414;
 }
@@ -237,6 +237,7 @@ footer {
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 15px;
+    padding-left: 21px;
 }
 
 .footer-column {
