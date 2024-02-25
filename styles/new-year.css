@@ -1,0 +1,47 @@
+/* Common Shared styles */
+body {
+    font-family: "Work Sans", sans-serif;
+}
+
+/* Banner styles */
+
+header {
+    background-image: url(../images/banner/banner2.png);
+    width: 1600px;
+    height: 889px;
+}
+
+.banner-header {}
+
+.banner {
+    padding: 220px;
+
+}
+
+.banner-title {
+    width: 525px;
+    color: #151414;
+    text-align: right;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.banner-description {
+    width: 494px;
+    color: #444343;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.button {
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    background: #F15B22;
+    color: white;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 23px;
+}
