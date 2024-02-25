@@ -191,3 +191,56 @@ main {
     border: none;
     padding: 21px 36px 20px 36px;
 }
+
+/* footer section styles */
+
+footer {
+    display: flex;
+    width: 1600px;
+    height: 577px;
+    background: #151414;
+}
+
+.footer-title {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.footer-description,
+.footer-email,
+.footer-phone {
+    width: 485px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.social-links {
+    display: flex;
+    gap: 12px;
+}
+
+.footer-form-title {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.email {
+    width: 325px;
+    height: 64px;
+    background: #151414;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    color: var(--Dark-07, #F3F3F3);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.footer-column {
+    padding-left: 230px;
+    padding-top: 130px;
+    width: 50%;
+}
