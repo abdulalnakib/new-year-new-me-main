@@ -132,9 +132,9 @@ main {
 }
 
 .card-image {
+    margin-left: 50px;
     width: 92.958px;
     height: 92.958px;
-    flex-shrink: 0;
 }
 
 .card-title {
