@@ -14,8 +14,10 @@ header {
 .banner-header {}
 
 .banner {
-    padding: 220px;
-
+    padding-left: 845px;
+    padding-top: 216px;
+    padding-right: 230px;
+    padding-bottom: 365px;
 }
 
 .banner-title {
@@ -24,6 +26,7 @@ header {
     text-align: right;
     font-size: 65px;
     font-weight: 700;
+    margin-bottom: 24px;
 }
 
 .banner-description {
@@ -32,6 +35,8 @@ header {
     text-align: right;
     font-size: 16px;
     font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 32px;
 }
 
 .button {
@@ -44,4 +49,17 @@ header {
     font-size: 20px;
     font-weight: 600;
     padding: 23px;
+    margin-top: 0px;
+    border: none;
+}
+
+.button a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.button-container {
+    padding-left: 340px;
+    padding-right: 230px;
+    /* padding-bottom: 187px; */
 }
