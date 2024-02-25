@@ -7,6 +7,7 @@ body {
 
 header {
     background-image: url(../images/banner/banner2.png);
+    background-repeat: no-repeat;
     width: 1600px;
     height: 889px;
 }
@@ -61,5 +62,54 @@ header {
 .button-container {
     padding-left: 340px;
     padding-right: 230px;
-    /* padding-bottom: 187px; */
+}
+
+/* Main section styles */
+
+main {
+    max-width: 1600px;
+}
+
+.profile-banner {
+    display: flex;
+}
+
+.profile-pic {
+    width: 451px;
+    margin-top: 139px;
+    margin-left: 277px;
+    margin-right: 105.5px;
+}
+
+.profile-column {
+    margin: 322px 0px 0px 0px;
+}
+
+.profile-section-title {
+    width: 288px;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.profile-description {
+    width: 416px;
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+.profile-list ul {
+    display:
+        margin-top: 16px;
+    margin-bottom: 0px;
+}
+
+.profile-list li {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 8px;
 }
