@@ -102,8 +102,7 @@ main {
 }
 
 .profile-list ul {
-    display:
-        margin-top: 16px;
+    margin-top: 16px;
     margin-bottom: 0px;
 }
 
@@ -112,4 +111,24 @@ main {
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 8px;
+}
+
+/* My plane section stykes */
+
+.card-section-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.plan-cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 99px;
+}
+
+.card-image {
+    width: 92.958px;
+    height: 92.958px;
+    flex-shrink: 0;
 }
