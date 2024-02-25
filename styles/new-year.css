@@ -116,6 +116,9 @@ main {
 /* My plane section stykes */
 
 .card-section-title {
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 50px;
     color: #151414;
     font-size: 40px;
     font-weight: 700;
@@ -124,6 +127,7 @@ main {
 .plan-cards-container {
     display: flex;
     justify-content: center;
+    margin-bottom: 125px;
     gap: 99px;
 }
 
@@ -131,4 +135,18 @@ main {
     width: 92.958px;
     height: 92.958px;
     flex-shrink: 0;
+}
+
+.card-title {
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.card-description {
+    color: #737272;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
 }
